@@ -1,0 +1,15 @@
+{
+  "name": "cherry-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for the Cherry language compiler",
+  "author": "Hannes Lohmander",
+  "license": "MIT",
+  "bin": {
+    "cherry": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "lodash": "^4.17.4"
+  }
+}
